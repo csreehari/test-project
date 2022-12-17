@@ -1,0 +1,146 @@
+body{
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden;
+    text-align: center;
+}
+header{
+    background-color:rgb(255, 255, 255);
+    padding:15px;
+    box-shadow: 0 0 3px #000;
+
+}
+header li{
+    display:inline;
+    padding-left: 45px;
+}
+header li a{
+    color:#333;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+}
+header li a:hover{
+    color:royalblue;
+}
+header ul #contact a{
+    color:#fff;
+    background-color: royalblue;
+    border-radius: 30px;
+    float:right;
+    position: relative;
+    top: -15px;
+}
+header ul #contact a:hover{
+    background-color: goldenrod;
+}
+header li img{
+    width:180px;
+    float:left;
+     margin-top:-20px;
+}
+*{
+    margin:0;
+    padding:0;
+    color:rgb(145, 130, 161);
+    box-sizing:border-box;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'poppins';
+    text-align:center;
+}
+.wrapper{
+    width:90%;
+    margin:0 auto;
+}
+header{
+    width:100%;
+    height:100px;
+    background:#c0392b;
+    position: fixed;
+}
+.logo{
+    width:30%;
+    float:left;
+    text-align:left;
+    line-height:100px;
+}
+.logo a{
+    text-decoration:none;
+    font-size:50px;
+    font-family:cursive;
+    color:#111;
+    letter-spacing:4px;
+}
+nav{
+    float:right;
+    line-height:100px;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'poppins';
+    letter-spacing: 4px;
+    font-size:20px;
+    color:#fff;
+    padding: 36px 10px;
+    margin:0 1px;
+}
+nav a:hover{
+    background:#fff;
+    color:#130f40;
+}
+.banner-area{
+    background-image: url(file:///C:/Users/gopik/OneDrive/Pictures/chocolates.png);
+    background-size: cover;
+    top:100px;
+    height:100vh;
+    width:100%;
+    position:fixed;
+}
+.banner-area:after{
+    content:'';
+    top:0;
+    left:0;
+    display:block;
+}
+.content-area{
+    width:100%;
+    height:800px;
+    position:relative;
+    background: white;
+    top:600px;
+}
+.content-area h2{
+    font-size:40px;
+    margin:0;
+    padding-top:30px;
+    letter-spacing:4px;
+}
+.content-area p{
+    padding:2% 0;
+    line-height:30px;
+    text-align:justify;
+}
+
+footer{
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    background: #111;
+}
+.main content{
+    display:flex;
+}
+.main content.box{
+    flex-basis:50%;
+    padding:10px 20px;
+}
+.main-content.box{
+    flex-basis:50%;
+    padding:10px 20px;
+}
